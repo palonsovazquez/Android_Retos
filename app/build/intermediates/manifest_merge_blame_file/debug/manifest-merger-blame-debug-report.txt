@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dam2.android_tutoriales_basicos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:4:5-6:35
+12        android:name="android.hardware.sensor.proximity"
+12-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:5:9-57
+13        android:required="true" />
+13-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:6:9-32
+14    <uses-feature
+14-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:7:5-9:35
+15        android:name="android.hardware.sensor.gyroscope"
+15-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:8:9-57
+16        android:required="true" />
+16-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:9:9-32
+17
+18    <uses-permission
+18-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:10:5-12:35
+19        android:name="android.permission.CAMERA"
+19-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:11:9-49
+20        android:required="true" />
+20-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:12:9-32
+21
+22    <application
+22-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:14:5-35:19
+23        android:allowBackup="true"
+23-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:15:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.2] /home/pablo/.gradle/caches/transforms-2/files-2.1/c7e28cf33a8972d116e817b742b7a10c/core-1.0.2/AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:16:9-43
+27        android:label="@string/app_name"
+27-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:17:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:18:9-54
+29        android:supportsRtl="true"
+29-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:19:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:20:9-40
+32        <activity android:name="com.dam2.android_tutoriales_basicos.Tutorial4" />
+32-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:21:9-56
+32-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:21:19-44
+33        <activity android:name="com.dam2.android_tutoriales_basicos.Activity_suma" />
+33-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:22:9-51
+33-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:22:19-48
+34        <activity android:name="com.dam2.android_tutoriales_basicos.Tutorial3" />
+34-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:23:9-47
+34-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:23:19-44
+35        <activity android:name="com.dam2.android_tutoriales_basicos.Tutorial2" />
+35-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:24:9-47
+35-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:24:19-44
+36        <activity android:name="com.dam2.android_tutoriales_basicos.Tuto1_actividad2" />
+36-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:25:9-54
+36-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:25:19-51
+37        <activity android:name="com.dam2.android_tutoriales_basicos.Tutorial1" />
+37-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:26:9-47
+37-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:26:19-44
+38        <activity android:name="com.dam2.android_tutoriales_basicos.MainActivity" >
+38-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:28:9-34:20
+38-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:28:19-47
+39            <intent-filter>
+39-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:29:13-33:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:30:17-69
+40-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:30:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:32:17-77
+42-->/home/pablo/ownCloud/AndroidStudioProjects/Android_Retos/app/src/main/AndroidManifest.xml:32:27-74
+43            </intent-filter>
+44        </activity>
+45    </application>
+46
+47</manifest>

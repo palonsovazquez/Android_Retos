@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_Tutoriales_Basicos</string>
+    <string name="boton_Tuto_1">Tutorial boton y \nprimer intent</string>
+    <string name="boton_Tuto_2">Tutorial Suma</string>
+    <string name="boton_Tuto_3">Camara</string>
+    <string name="boton_Tuto_4">Tutorial 4</string>
+    <string name="title_activity_tutorial1">tutorial1</string>
+
+</resources>
